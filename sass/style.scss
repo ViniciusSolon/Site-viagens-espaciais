@@ -1,0 +1,303 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  font-size: 12px;
+  font-weight: bold;
+  display: flex;
+  padding: 20px 90px;
+  top: 0;
+  color: white;
+  z-index: 1;
+  img {
+    width: 240px;
+  }
+}
+
+.img1 {
+  width: 240px;
+}
+
+.sessao {
+  display: flex;
+  flex-direction: column;
+  img {
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+}
+
+.letras {
+  position: absolute;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 200px 0px 0px 100px;
+  Button {
+    margin-top: 30px;
+    width: 160px;
+    height: 60px;
+    padding: 15px 35px;
+    border: 2px solid white;
+    text-align: center;
+  }
+}
+
+.letras2 {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 200px 100px 0px 0px;
+  Button {
+    margin-top: 30px;
+    width: 160px;
+    height: 60px;
+    padding: 15px 35px;
+    border: 2px solid white;
+    text-align: center;
+  }
+}
+
+footer {
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  padding: 40px;
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+}
+
+.sessao1 {
+  background-image: url("../Imagens\ projeto\ onebitX/home/01.jpg");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 100vh;
+  background-position: relative;
+}
+
+.sessao2 {
+  background-image: url("../Imagens\ projeto\ onebitX/home/03.jpg");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: relative;
+  height: 100vh;
+}
+
+.sessao3 {
+  background-image: url("../Imagens\ projeto\ onebitX/home/02.gif");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: relative;
+  height: 100vh;
+}
+
+.sessao4 {
+  background-image: url("../Imagens\ projeto\ onebitX/home/04.jpg");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 100vh;
+  background-position: relative;
+}
+// Falcon9
+
+.sessao1f {
+  background-image: url("../Imagens\ projeto\ onebitX/falcon9/01.jpg");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 100vh;
+  background-position: relative;
+}
+
+.sessao2f {
+  background-image: url("../Imagens\ projeto\ onebitX/falcon9/02.jpg");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: relative;
+  height: 100vh;
+  color: white;
+}
+
+.sessao4f {
+  background-image: url("../Imagens\ projeto\ onebitX/falcon9/08.jpg");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: relative;
+  height: 100vh;
+  color: white;
+}
+
+.sessao6 {
+  background-color: black;
+  color: white;
+  height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.container00.carrossel01 {
+  background-image: url("../Imagens\ projeto\ onebitX/falcon9/03.jpg");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: relative;
+  height: 100vh;
+}
+
+.container00.carrossel02 {
+  background-image: url("../Imagens\ projeto\ onebitX/falcon9/04.jpg");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: relative;
+  height: 100vh;
+}
+
+.container00.carrossel03 {
+  background-image: url("../Imagens\ projeto\ onebitX/falcon9/05.jpg");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: relative;
+  height: 100vh;
+}
+
+.container00.carrossel04 {
+  background-image: url("../Imagens\ projeto\ onebitX/falcon9/06.jpg");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: relative;
+  height: 100vh;
+}
+
+.container00.carrossel05 {
+  background-image: url("../Imagens\ projeto\ onebitX/falcon9/07.jpg");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: relative;
+  height: 100vh;
+}
+.title-falcon9 {
+  font-size: 90px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 514;
+}
+
+.letrasf {
+  margin-top: 100px;
+  position: absolute;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.infos {
+  font-size: 22px;
+  width: 640px;
+  line-height: 50px;
+}
+.containerFalcon9Desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.numeros {
+  margin-top: 100px;
+}
+
+// Humamflight
+
+.sessao1h {
+  background-image: url("../Imagens\ projeto\ onebitX/humanFlight/01.jpg");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 100vh;
+  background-position: relative;
+}
+
+.sessao2h {
+  background-image: url("../Imagens\ projeto\ onebitX/humanFlight/02.jpg");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 100vh;
+  background-position: relative;
+}
+
+.sessao3h {
+  background-image: url("../Imagens\ projeto\ onebitX/humanFlight/03.jpg");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 100vh;
+  background-position: relative;
+}
+
+.sessao4h {
+  background-image: url("../Imagens\ projeto\ onebitX/humanFlight/04.jpg");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 100vh;
+  background-position: relative;
+}
+
+.sessao5h {
+  background-image: url("../Imagens\ projeto\ onebitX/humanFlight/05.jpg");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 100vh;
+  background-position: relative;
+}
+
+@media (max-width: 795px) {
+  .sessao {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media (max-width: 795px) {
+  .title-falcon9 {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 4000px) {
+  .letras {
+    position: relative;
+  }
+}
+@media (max-width: 1500px) {
+  .letras {
+    position: absolute;
+  }
+}
